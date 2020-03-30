@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup kGirlGroup =findViewById(R.id.kGirlGroup);
         int id = kGirlGroup.getCheckedRadioButtonId();
         RadioButton selected = findViewById(id);
-        txtLike.setText("你最喜歡的韓國女團是?:" + selected.getText());
+        txtLike.setText("最喜歡的韓國女團是:" + selected.getText());
     }
 }
